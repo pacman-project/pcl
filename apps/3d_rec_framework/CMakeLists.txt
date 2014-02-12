@@ -23,7 +23,7 @@ endif()
 
 # Default to not building for now
 if (${DEFAULT} STREQUAL "TRUE")
-  set(DEFAULT FALSE)
+  set(DEFAULT TRUE)
 endif()
 
 PCL_SUBSUBSYS_OPTION(build "${SUBSYS_NAME}" "${SUBSUBSYS_NAME}" "${SUBSUBSYS_DESC}" ${DEFAULT} "${REASON}")
